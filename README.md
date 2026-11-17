@@ -1,6 +1,6 @@
 Week 3 – Password Cracking (JTR & Networkwalks Tools)
 
-Cybersecurity & Ethical Hacking project work — Networkwalks Academy, Batch B084.
+Cybersecurity & Ethical Hacking project work  Networkwalks Academy, Batch B084.
 
 This repo documents two methods used to recover the password of an encrypted PDF file (My Locked PDF1.pdf), as part of Week 3's essential project modules.
 
@@ -33,7 +33,7 @@ Screenshots: PM2-NWTools/
 
 Result
 
-Both methods independently recovered the same password, confirming the result. This highlights how quickly a weak, common password can be cracked with freely available tools — regardless of whether the attack is run from the command line or a simple browser tool.
+Both methods independently recovered the same password, confirming the result. This highlights how quickly a weak, common password can be cracked with freely available tools  regardless of whether the attack is run from the command line or a simple browser tool.
 
 Key takeaway
 
