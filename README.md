@@ -1,6 +1,6 @@
 Week 3 – Password Cracking (JTR & Networkwalks Tools)
 
-Cybersecurity & Ethical Hacking project work  Networkwalks Academy, Batch B084.
+Cybersecurity & Ethical Hacking project work — Networkwalks Academy, Batch B084.
 
 This repo documents two methods used to recover the password of an encrypted PDF file (My Locked PDF1.pdf), as part of Week 3's essential project modules.
 
@@ -11,12 +11,13 @@ Tools: John the Ripper (CLI) + Johnny (GUI front-end), on Windows.
 
 Steps performed:
 
-Extracted the PDF's crackable hash using pdf2john (via the Online Hash Crack PDF Hash Extractor) and saved it as hash1.txt.
-Loaded hash1.txt into Johnny.
+Extracted the PDF's crackable hash using pdf2john (via the Online Hash Crack PDF Hash Extractor) and saved it as a hash file.
+Loaded the hash file into Johnny.
+Confirmed the John the Ripper executable path in Johnny's Settings.
 Ran a dictionary attack against the hash.
 Recovered the password and used it to unlock the PDF.
 
-Screenshots: PM1-JTR/
+Screenshots: PM1 - JTR (JohnJohny)/
 
 PM2 – Password Cracking with Networkwalks Tools
 
@@ -29,11 +30,11 @@ Pasted the hash into the Password Cracker.
 Ran the built-in dictionary attack.
 Recovered the password and used it to unlock the PDF.
 
-Screenshots: PM2-NWTools/
+Screenshots: PM2 - Networkwalks tools/
 
 Result
 
-Both methods independently recovered the same password, confirming the result. This highlights how quickly a weak, common password can be cracked with freely available tools  regardless of whether the attack is run from the command line or a simple browser tool.
+Both methods independently recovered the same password, confirming the result. This highlights how quickly a weak, common password can be cracked with freely available tools — regardless of whether the attack is run from the command line or a simple browser tool.
 
 Key takeaway
 
